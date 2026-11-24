@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{if(!window.Swiper)return;new Swiper('.swiper',{slidesPerView:1,spaceBetween:16,loop:true,navigation:{nextEl:'.next',prevEl:'.prev'},pagination:{el:'.swiper-pagination',type:'fraction'},keyboard:{enabled:true}})});

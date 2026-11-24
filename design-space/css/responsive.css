@@ -1,0 +1,327 @@
+@media(max-width:1100px) {
+    .desktop {
+        gap: 13px
+    }
+
+    .desktop a {
+        font-size: 10px
+    }
+
+    .brand img {
+        width: 155px
+    }
+
+    .about-grid {
+        grid-template-columns: 110px 1fr
+    }
+
+    .about-art {
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 1.2fr .8fr;
+        gap: 15px
+    }
+
+    .about-art>p {
+        align-self: end
+    }
+
+    .why-grid,
+    .testimonial-grid,
+    .contact-grid {
+        gap: 45px
+    }
+}
+
+@media(max-width:850px) {
+    .container {
+        width: calc(100% - 42px)
+    }
+
+    .section {
+        padding: 85px 0
+    }
+
+    .desktop,
+    .nav-right>.btn {
+        display: none
+    }
+
+    .hamb {
+        display: block
+    }
+
+    .hero {
+        padding: 65px 0
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr
+    }
+
+    .hero-art {
+        height: 360px;
+        max-width: 570px;
+        width: 100%;
+        margin: auto
+    }
+
+    .micro {
+        margin-top: 35px
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr
+    }
+
+    .about-main {
+        grid-row: 2
+    }
+
+    .about-art {
+        grid-column: auto;
+        display: grid;
+        grid-template-columns: 1.2fr .8fr
+    }
+
+    .section-head {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 18px
+    }
+
+    .section-head>p {
+        max-width: 550px
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .service-card.wide {
+        grid-column: span 2
+    }
+
+    .tech-list>div {
+        grid-template-columns: 220px 1fr
+    }
+
+    .why-grid,
+    .testimonial-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px
+    }
+
+    .steps {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px
+    }
+}
+
+@media(max-width:560px) {
+    .container {
+        width: calc(100% - 36px)
+    }
+
+    .section {
+        padding: 70px 0
+    }
+
+    .header {
+        height: 72px
+    }
+
+    .brand img {
+        width: 145px
+    }
+
+    .hero {
+        padding: 50px 0
+    }
+
+    .hero h1 {
+        font-size: clamp(38px, 11vw, 54px)
+    }
+
+    .lead {
+        font-size: 13px
+    }
+
+    .actions {
+        gap: 15px
+    }
+
+    .actions .btn {
+        padding: 13px
+    }
+
+    .underlink {
+        font-size: 10px
+    }
+
+    .hero-art {
+        height: 290px
+    }
+
+    .ticker {
+        font-size: 7px;
+        letter-spacing: .08em
+    }
+
+    .about h2,
+    .section-head h2,
+    .why h2,
+    .testimonial-grid h2 {
+        font-size: 37px
+    }
+
+    .about-text {
+        grid-template-columns: 1fr
+    }
+
+    .values {
+        gap: 8px
+    }
+
+    .values span {
+        font-size: 9px
+    }
+
+    .about-art {
+        display: block
+    }
+
+    .poster {
+        height: 250px
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr
+    }
+
+    .service-card {
+        min-height: 235px
+    }
+
+    .service-card.wide {
+        grid-column: auto;
+        display: flex;
+        align-items: stretch
+    }
+
+    .service-card.wide .symbol {
+        margin: 15px 0
+    }
+
+    .service-card.wide a {
+        margin-top: 15px
+    }
+
+    .tech-list>div {
+        grid-template-columns: 1fr;
+        gap: 5px
+    }
+
+    .tech-list p {
+        font-size: 11px
+    }
+
+    .projects {
+        grid-template-columns: 1fr
+    }
+
+    .mock {
+        height: 250px
+    }
+
+    .mock b {
+        font-size: 37px
+    }
+
+    .steps {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .step {
+        padding: 15px;
+        min-height: 180px
+    }
+
+    .step h3 {
+        font-size: 15px
+    }
+
+    .step p {
+        font-size: 9px
+    }
+
+    .quote {
+        padding: 22px
+    }
+
+    .quote p {
+        font-size: 14px
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0
+    }
+
+    #contact-form {
+        padding: 23px 17px
+    }
+
+    .cta {
+        padding: 52px 0
+    }
+
+    .cta-inner {
+        align-items: flex-start;
+        flex-direction: column
+    }
+
+    .cta h2 {
+        font-size: 34px
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px 15px
+    }
+
+    .footer-grid>div:first-child {
+        grid-column: span 2
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        font-size: 7px
+    }
+
+    .drawer {
+        padding: 22px
+    }
+
+    .drawer nav a {
+        font-size: 18px
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    html {
+        scroll-behavior: auto
+    }
+
+    *,
+    *:before,
+    *:after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important
+    }
+}
