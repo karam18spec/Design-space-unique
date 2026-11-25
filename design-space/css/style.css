@@ -87,15 +87,39 @@ textarea {
     gap: 24px
 }
 
-.desktop a {
-    font-size: 11px;
+/* .desktop a {
+    font-size: 13px;
     color: #d1d6df;
     transition: .2s
 }
 
 .desktop a:hover {
     color: var(--o)
+} */
+
+
+.desktop a {
+    font-size: 13px;
+    color: #d1d6df;
+    text-decoration: none;
+    background: linear-gradient(
+        to right,
+        #ff914c 50%,
+        #d1d6df 50%
+    );
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.desktop a:hover {
+    background-position: 0 0;
+}
+
+
 
 .nav-right {
     display: flex;
@@ -107,13 +131,16 @@ textarea {
     background: transparent;
     color: white;
     border: 1px solid var(--line);
-    padding: 9px 20px;
+    padding: 11px 20px;
     font-size: 12px
 }
 
 #language option {
-    background: var(--n)
+    background: var(--n);
+    transition: 0.5s;
+    
 }
+
 
 .btn {
     display: inline-flex;
@@ -135,8 +162,8 @@ textarea {
 }
 
 .btn.small {
-    padding: 10px 14px;
-    font-size: 11px
+    padding: 8px 20px;
+    font-size: 13px
 }
 
 .hamb {
