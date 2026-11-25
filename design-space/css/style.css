@@ -1156,28 +1156,28 @@ h2 em {
 }
 
 .footer-grid p {
-    font-size: 10px;
+    font-size: 12px;
     color: #929cac;
     max-width: 250px
 }
 
 .footer-grid small {
-    font-size: 8px;
+    font-size: 12px;
     color: var(--o);
     letter-spacing: .12em
 }
 
 .footer-grid h3 {
-    font-size: 9px;
+    font-size: 10px;
     color: var(--o);
     letter-spacing: .15em
 }
 
 .footer-grid a {
     display: block;
-    font-size: 10px;
+    font-size: 11px;
     color: #aab3c0;
-    margin: 10px 0
+    margin: 12px 0
 }
 
 .footer-grid a:hover {
