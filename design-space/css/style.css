@@ -976,7 +976,9 @@ h2 em {
     height: 34px;
     background: transparent;
     border: 1px solid var(--line);
-    color: white
+    color: white;
+    cursor: pointer;
+    
 }
 
 .swiper-pagination {
